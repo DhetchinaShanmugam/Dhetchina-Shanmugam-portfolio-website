@@ -4,9 +4,9 @@ I am a passionate Data Analyst with a strong background in Python, SQL, Excel, a
 
 Skills
 Programming Languages: Python, SQL
-Data Analysis Tools: Excel, Pandas, NumPy, Matplotlib, Seaborn
-Database Management: MySQL, PostgreSQL
-Web Development: HTML, CSS, JavaScript basics
+Data Analysis Tools: Excel, Pandas, NumPy
+Database Management: SQLite
+Web Development: HTML, CSS
 Data Visualization: Power BI, Tableau
 
 Contact
