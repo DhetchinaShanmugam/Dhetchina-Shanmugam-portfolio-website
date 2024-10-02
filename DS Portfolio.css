@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.navbar-logo {
+    color: #ffffff;
+    border-color: #4b6cc1;
+    width: 20%;
+    border-style: solid;
+    padding-left: 25px;
+}
+
+#navbar-item1 {
+    color: #ffffff;
+}
+
+#navbar-item2 {
+    color: #ffffff;
+}
+
+#navbar-item3 {
+    color: #ffffff;
+}
+
+#navbar-item4 {
+    color: #ffffff;
+}
+
+#navbar-item5 {
+    color: #ffffff;
+}
+
+.container-bg {
+    background-color: #191a1d;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    padding-left: 20px;
+    padding-top: 200px;
+    padding-bottom: 10px;
+}
+
+.profile-img {
+    width: 100%;
+    height: 300px;
+}
+
+.name {
+    color: #ffffff;
+    font-size: 45px;
+    opacity: 0;
+    /* Start hidden */
+    position: relative;
+    animation: slideIn 2s forwards;
+}
+
+span {
+    color: #4b6cc1;
+}
+
+.para {
+    color: #9aa5b1;
+    font-size: 25px;
+    opacity: 0;
+    /* Start hidden */
+    position: relative;
+    animation: slideIn 2s forwards;
+}
+
+
+
+.cm-button {
+    background-color: #4b6cc1;
+    border-radius: 10px;
+    width: 120%;
+    height: 50px;
+    font-size: 18px;
+    border-width: 0px;
+    color: #ffffff;
+    cursor: hover;
+
+}
+
+.button:hover {
+    background-color: #002ead;
+    transition: 0.10s;
+}
+
+.aboutme-container {
+    background-color: #323f4b;
+    background-size: cover;
+}
+
+.portfolio-about-me-img {
+    width: 100%;
+}
+
+.bio {
+    color: #9aa5b1;
+    font-size: 20px;
+    outline-style: solid;
+    outline-width: thin;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.bio:hover {
+    background-color: #748c41;
+    transition: 0.10s;
+}
+
+.aboutme-heading {
+    opacity: 0;
+    /* Start hidden */
+    position: relative;
+    animation: slideIn 2s forwards;
+    color: #ffffff;
+    font-size: 32px;
+}
+
+
+.image-container {
+
+    width: 100%;
+    height: 500px;
+}
+
+.certificate-img {
+    width: 100%;
+    height: 300px;
+    transition: transform 0.5s ease;
+}
+
+.image-container:hover .certificate-img {
+    transform: scale(1.2);
+}
+
+.skills-container {
+    background-color: #1f2933;
+    background-size: cover;
+    padding-bottom: 40px;
+
+}
+
+.language-container {
+    background-color: #323f4b;
+    border-radius: 10px;
+    padding: 15px;
+    width: 170px;
+    height: 140px;
+}
+
+.language-img {
+    width: 40%;
+}
+
+.website-work-done-section-bg {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-work-done-bg.png");
+    background-size: cover;
+}
+
+.wh {
+    font-size: 30px;
+}
+
+.wp {
+    font-size: 12px;
+}
+
+.horizontal-line {
+    background-color: #ffffff;
+    width: 55px;
+}
+
+.icons {
+    font-size: 40px;
+}
+
+.website-footer-section-bg {
+    background-color: #0d2436;
+    color: #9aa5b1;
+    background-size: cover;
+    padding-top: 60px;
+}
+
+.sub-heading {
+    color: #cced00;
+}
+
+.fh {
+    color: #9aa5b1;
+    font-size: 25px;
+}
+
+.person-image {
+    width: 20%;
+    height: 100px;
+    border-radius: 45px;
+}
+
+.copyright-container {
+    background-color: #001c32;
+    color: #5a7184;
+    padding: 10px;
+}
+
+.page-bg {
+    background-color: #3e4c59;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.ph {
+    font-size: 35px;
+}
+
+.pbutton {
+    background-color: #1754a1;
+    color: #ffffff;
+    border-width: 0px;
+    height: 40px;
+    width: 120px;
+    border-radius: 5px;
+}
+
+.tb-section-card {
+    background-color: #323f4b;
+    opacity: 0;
+    position: relative;
+    animation: slideIn 2s forwards;
+}
+
+.tb-section-img {
+    width: 100%;
+    height: 155px;
+    background-size: cover;
+}
+
+.section-title {
+    color: #9aa5b1;
+    font-size: 15px;
+}
+
+.section-description {
+    color: #9aa5b1;
+    font-size: 19px;
+}
+
+.section-link {
+    color: #cced00;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+
+
+.title2 {
+    color: #ffffff;
+    font-size: 44px;
+}
+
+.card-inside-title {
+    color: #ffffff;
+    font-size: 30px;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        right: -100%;
+    }
+
+    to {
+        opacity: 1;
+        right: 0;
+    }
+}
